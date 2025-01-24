@@ -37,30 +37,33 @@
     </script>
   </head>
   <body class="font-Inter">
-    <!-- nav -->
-    <nav
-      class="container mx-auto p-[20px] lg:py-[58px] lg:px-[140px] flex justify-between items-center"
-    >
-      <div>
-        <img src="assets/logo (1).svg" alt="nav-logo" />
-      </div>
-      <!-- nav-items -->
-      <ul class="hidden md:flex gap-12 font-[400] text-darkgrayishBlue">
-        <li class="hover:text-softRed cursor-pointer">Home</li>
-        <li class="hover:text-softRed cursor-pointer">New</li>
-        <li class="hover:text-softRed cursor-pointer">Popular</li>
-        <li class="hover:text-softRed cursor-pointer">Trending</li>
-        <li class="hover:text-softRed cursor-pointer">Categories</li>
-      </ul>
-      <!-- menu - img -->
-      <div class="md:hidden">
-        <img src="assets/icon-menu.svg" alt="" />
-      </div>
-    </nav>
+    <!-- header  -->
+    <header>
+      <!-- nav -->
+      <nav
+        class="container mx-auto p-[20px] lg:py-[58px] lg:px-[140px] flex justify-between items-center"
+      >
+        <div>
+          <img src="assets/logo (1).svg" alt="nav-logo" />
+        </div>
+        <!-- nav-items -->
+        <ul class="hidden md:flex gap-12 font-[400] text-darkgrayishBlue">
+          <li class="hover:text-softRed cursor-pointer">Home</li>
+          <li class="hover:text-softRed cursor-pointer">New</li>
+          <li class="hover:text-softRed cursor-pointer">Popular</li>
+          <li class="hover:text-softRed cursor-pointer">Trending</li>
+          <li class="hover:text-softRed cursor-pointer">Categories</li>
+        </ul>
+        <!-- menu - img -->
+        <div class="md:hidden">
+          <img src="assets/icon-menu.svg" alt="" />
+        </div>
+      </nav>
+    </header>
     <!-- main -->
     <main class="container mx-auto p-[20px] lg:py-[58px] lg:px-[140px]">
       <!-- main-section -->
-      <section class="lg:grid grid-cols-3 gap-12">
+      <section class="lg:grid grid-cols-3 gap-8">
         <!-- section-1 -->
         <section class="col-span-2">
           <!-- div-1 -->
@@ -77,25 +80,110 @@
             />
           </div>
           <!-- div-2 -->
-          <div class="lg:grid grid-cols-2">
-            <h1 class="font-[800] text-[36px] md:text-[50px]">The Bright Future OF Web 3.0?</h1>
+          <div class="lg:grid grid-cols-2 my-8">
+            <h1 class="font-[800] text-[36px] md:text-[50px]">
+              The Bright Future OF Web 3.0?
+            </h1>
             <div>
-            <p>
-              We dive into the next evolution of web that claims to put the
-              power of the platforms back into the hands of the people. But is
-              it really fulfilling its promise?
-            </p>
-            <button>READ MORE</button>
-          </div>
+              <p>
+                We dive into the next evolution of web that claims to put the
+                power of the platforms back into the hands of the people. But is
+                it really fulfilling its promise?
+              </p>
+              <button
+                class="bg-softRed hover:bg-verydarkBlue hover:text-offWhite p-4 my-8 font-[700] tracking-[6px] border-none"
+              >
+                READ MORE
+              </button>
+            </div>
           </div>
         </section>
         <!-- section-2 -->
-        <section>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos odit culpa esse debitis consequuntur libero inventore ut, voluptatum, est nam ducimus nisi iure dolorem. Officia quae exercitationem ipsum veniam! Est fugit labore neque amet nam soluta reprehenderit. Corporis temporibus unde voluptates voluptatem delectus voluptas eos repellendus facilis quibusdam explicabo quis architecto vel libero, tenetur ratione beatae, sunt aliquam cum ad possimus cumque, nemo ex. Unde quia eligendi eveniet. Maiores, magnam odio cum voluptatem itaque quos consectetur ea dolores perspiciatis id. Eius debitis, fugit recusandae obcaecati nemo sequi quidem omnis, quis reiciendis labore repellat? Odit, inventore beatae obcaecati ducimus consectetur quia?
-          </p>
+        <section class="bg-verydarkBlue p-4 lg:h-[500px]">
+          <h2 class="text-softOrange text-4xl pt-4 font-[800]">New</h2>
+          <div class="border-b-2 border-offWhite my-4">
+            <h4
+              class="text-offWhite pb-2 text-xl font-[700] hover:text-softOrange hover:cursor-pointer"
+            >
+              Hydrogen VS Electric Cars
+            </h4>
+            <p class="text-offWhite pb-4">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="border-b-2 border-offWhite my-4">
+            <h2
+              class="text-offWhite pb-2 text-xl font-[700] hover:text-softOrange hover:cursor-pointer"
+            >
+              The Downsides of AI Artistry
+            </h2>
+            <p class="text-offWhite pb-4">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="mt-4">
+            <h2
+              class="text-offWhite hover:text-softOrange pb-2 text-xl font-[700] hover:cursor-pointer"
+            >
+              Is VC Funding Drying Up?
+            </h2>
+            <p class="text-offWhite pb-2">
+              Private Funding by VC is down 50% YOY. We take a look at what that
+              means.
+            </p>
+          </div>
         </section>
       </section>
     </main>
+    <!-- footer  -->
+    <footer
+      class="container mx-auto p-[20px] lg:py-[10px] lg:px-[140px] mb-[3rem]"
+    >
+      <!-- footer - section  container-->
+      <section class="lg:grid grid-cols-3 gap-8 mb-[3rem] items-stretch">
+        <!-- footer-section-1 -->
+        <section class="flex gap-2 pb-6 ">
+          <!--footer-section-1 div  - container  -->
+          <!-- section-1 div-1  -->
+          <div class="">
+            <img class=" h-254 w-200 object-contain"  src="assets/image-retro-pcs.jpg" alt="retro pcs"/>
+          </div>
+          <!-- section-1 div - 2  -->
+          <div class="">
+            <h1 class="text-softRed text-2xl font-[700]">01</h1>
+            <h2 class="hover:text-softRed text-base font-[800]">Reviving Retro PCs</h2>
+            <p class="text-darkgrayishBlue text-base pt-2">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </section>
+        <!-- footer-section-2 -->
+        <section class="flex gap-2 pb-6">
+          <!-- footer-section-2 - div- container -->
+          <!--footer - div - 1 - container - 1 -->
+          <div class="">
+            <img class=" h-254 w-200 object-contain"  src="assets/image-top-laptops.jpg" alt="keypad laptop"/>
+          </div>
+          <!-- footer-div- container - 2  -->
+          <div class="">
+            <h1 class="text-softRed text-2xl font-[700]">02</h1>
+            <h2 class="hover:text-softRed text-base font-[800]">Top 10 Laptops of 2022</h2>
+            <p class="text-darkgrayishBlue text-base pt-2">Our best picks for various needs and budgets</p>
+          </div>
+        </section>
+        <!-- footer-section-3 -->
+        <section class="flex gap-2">
+          <!--footer - div - container - 1 -->
+          <div class="">
+            <img  class=" h-254 w-200 object-contain"  src="assets/image-gaming-growth.jpg" alt="game-pad" />
+          </div>
+          <!-- footer-div- container - 2  -->
+          <div class="">
+            <h1 class="text-softRed text-2xl font-[700]">03</h1>
+            <h2 class="hover:text-softRed text-base font-[800]">The Growth of Gaming</h2>
+            <p class="text-darkgrayishBlue text-base pt-2">How the pandemic has sparked fresh opportunities</p>
+          </div>
+        </section>
+      </section>
+    </footer>
   </body>
 </html>
